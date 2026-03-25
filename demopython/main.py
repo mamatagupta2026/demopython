@@ -18,7 +18,7 @@ def demo_library():
         lib.add_book(book)
 
     # Register members
-    alice = Member("M001", "Mamata Gupta", "alice@example.com")
+    alice = Member("M001", "Mamata Gupta", "mamata@example.com")
     bob = Member("M002", "Bob Jones", "bob@example.com")
     lib.register_member(alice)
     lib.register_member(bob)
